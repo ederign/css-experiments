@@ -1,0 +1,10 @@
+div#scope .row {
+    background-color:red;
+}
+
+div#scope .col-md-6 {
+  border:1px solid black;
+}
+.row{
+  background-color: yellow;
+}
