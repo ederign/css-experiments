@@ -12,58 +12,150 @@
     <!-- PatternFly -->
     <script src="bower_components/patternfly/dist/js/patternfly.min.js"></script>
 
-    <script src="bower_components/jquery-match-height/dist/jquery.matchHeight-min.js"></script>
-    
-     <!-- site libs -->
+    <!--<script src="bower_components/jquery-match-height/dist/jquery.matchHeight-min.js"></script>-->
+
+    <!-- site libs -->
     <script src="js/index.js"></script>
     <link href="css/lib.css" rel="stylesheet" media="screen, print">
-    
+    <link href="css/mui.prefix.css" rel="stylesheet" media="screen, print">
+    <link href="css/reset.css" rel="stylesheet" media="screen, print">
+
 </head>
 
 <body>
-    <nav class="navbar navbar-default navbar-pf" role="navigation">
-  <div class="navbar-header">
-    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse-1">
-      <span class="sr-only">Toggle navigation</span>
-      <span class="icon-bar"></span>
-      <span class="icon-bar"></span>
-      <span class="icon-bar"></span>
-    </button>
-    <a class="navbar-brand" href="/">
-      <img src="//assets/img/brand.svg" alt="PatternFly Enterprise Application" />
-    </a>
-  </div>
-  <div class="collapse navbar-collapse navbar-collapse-1">
-   
-    <ul class="nav navbar-nav navbar-primary">
-      <li>
-        <a href="#">First Link</a>
-      </li>
-      <li class="active">
-        <a href="#">Another Link</a>
-      </li>
-    </ul>
-  </div>
-</nav>
-<div class="wrapper"> 
-<div class="container-fluid">
-  <div class="row">
-    <div class="col-md-4">.col-md-4</div>
-    <div class="col-md-4">.col-md-4</div>
-    <div class="col-md-4">.col-md-4</div>
-  </div>
-  <div id="scope">
-    <div class="row">
-      <div class="col-md-6">.col-md-6</div>
-      <div class="col-md-6">.col-md-6</div>
+<nav class="navbar navbar-default navbar-pf" role="navigation">
+
+    <div class="collapse navbar-collapse navbar-collapse-1">
+
+        <ul class="nav navbar-nav navbar-primary">
+            <li>
+                <a href="#">First Link</a>
+            </li>
+            <li class="active">
+                <a href="#">Another Link</a>
+            </li>
+        </ul>
     </div>
-  </div>
-  <div class="row">
-    <div class="col-md-4">.col-md-4</div>
-    <div class="col-md-4">.col-md-4</div>
-    <div class="col-md-4">.col-md-4</div>
-  </div>
+</nav>
+
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-md-4">
+            <div class="cor">.col-md-4</div>
+        </div>
+        <div class="col-md-4">
+            <div class="cor">.col-md-4</div>
+        </div>
+        <div class="col-md-4">
+            <div class="cor">.col-md-4</div>
+        </div>
+    </div>
+    <div id="scope">
+        <div class="row">
+            <div class="col-md-6">
+                <div class="cor">.col-md-6</div>
+            </div>
+            <div class="col-md-6">
+                <div class="cor">.col-md-6</div>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-4">
+            <div class="cor">.col-md-4</div>
+        </div>
+        <div class="col-md-4">
+            <div class="cor">.col-md-4</div>
+        </div>
+        <div class="col-md-4">
+            <div class="cor">.col-md-4</div>
+        </div>
+    </div>
 </div>
+
+<div class="help-block"></div>
+<div class="help-block"></div>
+<div class="help-block"></div>
+
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-md-12">
+            <p>BreadCrumb with reset</p>
+        </div>
+        <div class="col-md-12">
+            <!--http://www.css-prefix.com/-->
+
+            <div id="reset">
+                <div>
+                    <ol class="breadcrumb">
+                        <li>
+                            <a href="#">Back to Top Level</a>
+                        </li>
+                        <li>
+                            <a href="#">Second Level</a>
+                        </li>
+                        <li>
+                            <a href="#">Third Level</a>
+                        </li>
+                        <li class="active"><strong>Fourth Level:</strong> Detail about fourth level
+                        </li>
+                    </ol>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-12">
+            <p>BreadCrumb without reset</p>
+        </div>
+        <div class="col-md-12">
+            <!--http://www.css-prefix.com/-->
+            <div>
+                <div>
+                    <ol class="breadcrumb">
+                        <li>
+                            <a href="#">Back to Top Level</a>
+                        </li>
+                        <li>
+                            <a href="#">Second Level</a>
+                        </li>
+                        <li>
+                            <a href="#">Third Level</a>
+                        </li>
+                        <li class="active"><strong>Fourth Level:</strong> Detail about fourth level
+                        </li>
+                    </ol>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-12">
+            <p>BreadCrumb without reset and some property</p>
+        </div>
+        <div class="col-md-12">
+            <!--http://www.css-prefix.com/-->
+            <div>
+                <div class="ol-scope">
+                    <ol class="breadcrumb">
+                        <li>
+                            <a href="#">Back to Top Level</a>
+                        </li>
+                        <li>
+                            <a href="#">Second Level</a>
+                        </li>
+                        <li>
+                            <a href="#">Third Level</a>
+                        </li>
+                        <li class="active"><strong>Fourth Level:</strong> Detail about fourth level
+                        </li>
+                    </ol>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-12 text-right">
+            <p>Div text align right</p>
+        </div>
+
+
+    </div>
 
 
 </div>

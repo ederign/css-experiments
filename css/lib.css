@@ -1,10 +1,19 @@
-div#scope .row {
+div#scope .cor {
     background-color:red;
 }
 
 div#scope .col-md-6 {
   border:1px solid black;
 }
-.row{
+.cor{
   background-color: yellow;
+}
+#reset * {
+  all: initial;
+}
+div.ol-scope ol{
+    background-color: wheat;
+}
+.text-right p{
+    text-align: right;
 }
